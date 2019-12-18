@@ -1,7 +1,7 @@
-def reverse_each_word(string)
+def reverse_each_word(words)
   new_sentence = []
  
- string.split(" ").each do |word|
+ words.split(" ").each do |word|
    new_sentence << word.reverse
   
  end
