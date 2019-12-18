@@ -14,5 +14,6 @@ new_sentence = []
   words.split(" ").collect do |word|
   new_sentence << word.reverse
   end 
+  new_sentence.join(" ")
 end  
 
