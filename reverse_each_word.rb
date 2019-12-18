@@ -16,4 +16,3 @@ new_sentence = []
   end 
 end  
 
-puts 
